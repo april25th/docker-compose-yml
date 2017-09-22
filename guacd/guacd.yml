@@ -1,0 +1,6 @@
+guacd:
+  restart: always
+  image: guacamole/guacd:0.9.12-incubating
+  container_name: guacd
+  ports:
+    - "4822:4822"
